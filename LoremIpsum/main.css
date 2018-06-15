@@ -1,0 +1,75 @@
+/* @import url('halloween.css'); */
+
+/* @media screen { */
+
+    body {color: red;
+        font-size: 100%;
+        width: 75%;
+        margin: auto;}
+
+    h1 {font-family: courier;
+        font-size: 2em;}
+
+    h2 {color: green;
+        font-style: italic;
+        font-size: 1.5em;}
+    
+    header {text-align: center;}
+
+    header h2 {color: black}
+
+    footer {font-weight: bold;}
+
+    nav {text-transform: lowercase;}
+
+    nav ul li a {text-decoration: none;
+        font-variant: small-caps;}
+
+    nav ul li {list-style: none;
+        display: inline;
+        padding: 10px;}
+    
+    article#Zombie span#em_h2 {color: black}
+    
+    article#Cupcake span#em_h2 {color: mediumvioletred}
+    
+    p {color: blue;
+        font-size: 18px;}
+    
+    p.two {color: black;
+        font: 15px Arial, bold, sans-serif}
+
+    #changeStyle {background-color: lightblue}
+
+    nav a:link { color:white; background-color: darkgreen; font-weight: bold}
+
+    nav a:visited {color:white}
+
+    nav a:hover {color: red; background-color: white; font-weight: normal}
+
+    nav a:active {color: midnightblue}
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+header {
+    background: #b3dced; /* Old browsers */
+    background: -moz-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */    
+}
+
+main h2 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4e391+0,61c419+60,b4e391+100;Green+3D */
+background: #b4e391; /* Old browsers */
+background: -moz-linear-gradient(top, #b4e391 0%, #61c419 60%, #b4e391 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b4e391 0%,#61c419 60%,#b4e391 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b4e391 0%,#61c419 60%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+}
+/* } */
+
+/* @media print {
+    header, footer {display: none;}
+    a {display: none;}
+} */

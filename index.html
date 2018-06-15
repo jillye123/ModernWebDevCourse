@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Basics of HTML, CSS and JavaScript</title>
+
+    <style>
+        main {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        div {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid purple;
+            background-color: #eeee;
+            color: rgb(45, 0, 128);
+        }
+
+        div#hobbie {
+            font-weight: bold;
+            color: green;
+        }
+
+        div#name {
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function init() {
+
+            let me = {
+                name: "Jill", email: "jye@genius.com",
+                hobbie: ["eat", "dancing", "play"]
+            }
+            document.getElementById("name").innerHTML = "My name is: " + me.name;
+            document.getElementById("email").innerHTML = "My email is: " + me.email;
+
+            let hobbieDiv = "<ul>";
+            me.hobbie.forEach(element => {
+                hobbieDiv += "<li>" + element + "</li>";
+            });
+            hobbieDiv += "</ul>";
+            document.getElementById("hobbie").innerHTML = hobbieDiv;
+        }
+    </script>
+</head>
+
+<body onload="init()">
+    <main>
+        <div id="name"></div>
+        <div id="email"></div>
+        <div id="hobbie"></div>
+    </main>
+</body>
+
+</html>
